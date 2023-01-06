@@ -3,8 +3,8 @@ import mysql.connector
 conexao = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='Pi9tr5xw',
-    database='dbspring',
+    password='',
+    database='',
 )
 
 cursor = conexao.cursor()
